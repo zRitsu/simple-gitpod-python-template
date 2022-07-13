@@ -1,6 +1,7 @@
 tasks:
   - init: |
       rm -rf .git
+      rm ./README.md
       python -m venv venv
       source venv/bin/activate
       pip install -U poetry
