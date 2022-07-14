@@ -2,6 +2,7 @@ tasks:
   - init: |
       rm -rf .git
       rm ./README.MD
+      rm .gitpod.yml
       python -m venv venv
       source venv/bin/activate
       python -m pip install -U pip poetry 
