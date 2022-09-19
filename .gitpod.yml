@@ -3,9 +3,9 @@ tasks:
       rm -rf .git
       rm ./README.MD
       rm .gitpod.yml
-      python -m venv venv
-      source venv/bin/activate
-      python -m pip install -U pip poetry 
+      python3 -m pip install -U pip poetry
+      sudo apt install -y ffmpeg
+      sudo apt install -y libopus-dev
 
 ports:
   - port: 8080
